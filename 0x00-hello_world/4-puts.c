@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-/* Function prints strings*/
 /*
  * main - Entry point
  *Return -Always 0 ( Success)
