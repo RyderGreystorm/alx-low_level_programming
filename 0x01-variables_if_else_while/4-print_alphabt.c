@@ -2,7 +2,7 @@
 
 /**
  * main - entry level of the application
- * REturn: 0 for succes
+ * Return: 0 for succes
  */
 
 int main(void)
