@@ -1,0 +1,1 @@
+In this project we shall solve coding challenges onon the c programming language. THis particular "kata" covers variables, conditional and control statements, binary, logical and arithmetic operators as well as ternary operators
