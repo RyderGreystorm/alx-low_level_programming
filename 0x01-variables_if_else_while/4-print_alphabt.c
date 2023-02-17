@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian - Usuing continue keyword
+ * mian - entry level of application
  * Return: 0 for success
  */
 
