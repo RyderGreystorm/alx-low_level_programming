@@ -7,13 +7,12 @@
 
 int main(void)
 {
-	char put[] = "_putchar";
+	char put[8] = "_putchar";
 	int i;
-	int size = sizeof(put)/sizeof(put[0]);
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < 8; i++)
 		_putchar(put[i]);
 	_putchar('\n');
 
-	return 0;
+	return (0);
 }
