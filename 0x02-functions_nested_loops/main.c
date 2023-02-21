@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * main - entry level of my function
@@ -8,6 +8,6 @@
 int main(void)
 {
 
-	print();
+	print_alphabet();
 	return 0;
 }
