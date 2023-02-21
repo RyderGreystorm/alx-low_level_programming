@@ -15,9 +15,9 @@ int print_last_digit(int num)
 	if (x < 0)
 	{
 		x = abs(x);
-		_putchar(x);
+		_putchar(x + '0');
 	}
 	else
-		_putchar(x);
-	return x;
+		_putchar(x + '0');
+	return (x);
 }
