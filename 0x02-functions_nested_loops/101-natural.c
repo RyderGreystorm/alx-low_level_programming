@@ -1,22 +1,12 @@
 #include <stdio.h>
 
 /**
- * mian - entery point of our application
- * Return: zero for success
- * natural_num - prints the sum of natural numbers that are factors of 3 and 5
- * Return: void
+ * main - entery point of our application
+ * Return: zero for success for main and void for natural num;
  */
-
-void natural_num(void);
 
 
 int main(void)
-{
-	natural_num();
-	return (0);
-}
-
-void natural_num(void)
 {
 	int i, sum = 0;
 
@@ -26,4 +16,6 @@ void natural_num(void)
 			sum += i;
 	}
 	printf("%d\n", sum);
+
+	return (0);
 }
