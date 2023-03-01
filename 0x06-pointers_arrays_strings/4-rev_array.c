@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - sorts arrays from highest value
- *a@: array
+ *@a: array
  *@n: lenght he array
  *Return:arrrray
  */
