@@ -10,13 +10,6 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int len, i;
-
-	len = strlen(dest);
-
-	for (i = 0; i < n; i++)
-	{
-		dest[len + i] = src[i];
-	}
+	strncat(dest, src, n);
 	return (dest);
 }
