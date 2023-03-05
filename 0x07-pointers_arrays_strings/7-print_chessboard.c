@@ -19,6 +19,6 @@ void print_chessboard(char (*a)[8])
 			if (a[i][j] == ' ')
 				_putchar(a[i][j]);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
