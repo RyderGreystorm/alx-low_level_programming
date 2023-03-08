@@ -4,6 +4,7 @@
  * _pow_recursion - finds the power if a number
  * @x: first params
  * @y: second params
+ * Return: int
  */
 
 int _pow_recursion(int x, int y)
