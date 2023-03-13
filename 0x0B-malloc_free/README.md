@@ -5,4 +5,5 @@ You will find files like the main.h file which is a header file containing all t
 Question 0
 I used the malloc() function in a self defined function called "char \*create_array(unsigned int size, char c)" which can be found in the 0-create_array.c file to allocate momory for the user to input any number of a specific char.
 
-
+Question 1
+I used to malloc function to define my own strdup() function that duplicates a string passed to it into a different block of memory
