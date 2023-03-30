@@ -12,9 +12,6 @@ size_t list_len(const list_t *h)
 
 	count = 0;
 
-	if (h == NULL)
-		printf("List is empty");
-
 	while (h != NULL)
 	{
 		count++;
