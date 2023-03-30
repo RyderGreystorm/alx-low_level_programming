@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free-list - frees all allocated space to prevent memory leak
+ * free_list - frees all allocated space to prevent memory leak
  * @head: head pointer
  * Return: nothing
  */
