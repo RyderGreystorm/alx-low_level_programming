@@ -11,6 +11,7 @@ int get_endianness(void)
 	unsigned int low = 1;
 
 	char *ptr = (char *) &low;
+
 	if (*ptr)
 		return (1);
 	else
