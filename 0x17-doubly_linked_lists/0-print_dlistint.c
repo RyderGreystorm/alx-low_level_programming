@@ -15,6 +15,5 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 		sum += 1;
 	}
-	printf("\n");
 	return (sum);
 }
