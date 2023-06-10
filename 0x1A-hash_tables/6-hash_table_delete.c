@@ -1,16 +1,4 @@
 #include "hash_tables.h"
-
-/**
- * free_array - free content of the array
- * @item: array elements
- */
-
-void free_array(hash_node_t *item)
-{
-	free(item->value);
-	free(item->key);
-	free(item);
-}
 /**
  * hash_table_delete - frees table
  * @ht: pointer to the table
@@ -19,18 +7,24 @@ void free_array(hash_node_t *item)
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int i;
-	hash_node_t *tmp;
+	hash_node_t *tmp, *curr;
 
+	if (ht == NULL)
+		return;
 	for (i = 0; i < ht->size; i++)
 	{
-		tmp = ht->array[i];
-		while (tmp != NULL)
+		if (ht->array[i] != NULL)
 		{
-			free(tmp->value);
-			free(tmp->key);
-			tmp = tmp->next;
+               tmp = ht->array[i];
+                while (tmp != NULL)
+                {       curr = tmp->next;
+                        free(tmp->value);
+                        free(tmp->key);
+                        free(tmp);
+                        tmp = curr;
+                }
+
 		}
-		free(tmp);
 	}
 	free(ht->array);
 	free(ht);
